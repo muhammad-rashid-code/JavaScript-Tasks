@@ -69,4 +69,70 @@
 // let obj = { [keyName]: keyValue };
 // console.log(obj);
 
+// let user = {
+//   userFname: "muhammad",
+//   userLname: "rashid",
+// };
+
+// for (let prop in user) {
+//   user[prop] = prompt(`Enter a valuue for key ${prop}`);
+
+//   let obj = { [prop]: user[prop] };
+//   console.log(obj);
+// }
+
+// console.log(user);
+
+// function User(fNmae, lName, campus, subjects, lapto) {
+//   this.fNmae = fNmae;
+//   this.lName = lName;
+//   this.campus = campus;
+//   this.subjects = subjects;
+//   this.lapto = lapto;
+// }
+
+// let user1 = new User("abdula", "hannan", "gulshan", [
+//   "html",
+//   "css",
+//   "js",
+//   "firebase",
+// ]);
+
+// let user2 = new User("muhammad", "rashid", "bahadurabad", [
+//   "html",
+//   "css",
+//   "js",
+//   "firebase",
+// ]);
+
+// console.log(user1);
+
+// function UserOfNet(fName, lname, rollNum) {
+//   this.fName = fName;
+//   this.lname = lname;
+//   this.rollNum = rollNum;
+// }
+
+// UserOfNet.prototype.isNewConnection = false;
+
+// let user1 = new UserOfNet("muhammad", "rashid", "215654");
+
+// let user2 = new UserOfNet("haider", "ali", "534346");
+
+// console.log(user1, user2);
+
+
+// function Car(name, model, varient) {
+//     this.name = name;
+//     this.model = model;
+//     this.varient = varient;
+// }
+// Car.prototype.calcFuelAvg = function (fuel, km) {
+//     console.log(`Fuel average is ${km / fuel}.`);
+// }
+
+// let car1 = new Car('Mehran', 2005, "VXR");
+// let car2 = new Car("Toyota Corolla", 2013, "GLI");
+// car1.calcFuelAvg(20, 200);
+// car2.calcFuelAvg(10, 130);
 
