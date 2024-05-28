@@ -35,4 +35,38 @@
 //   console.log(prop, ":", plan1[]);
 // }
 
+// let user = {
+//   userName: "rashid",
+//   rashid: "he is fullStack Developer",
+// };
+
+// let userName = "rashid";
+// console.log(user["userName"]);
+// console.log(user[userName]);
+
+// let user = {
+//   userName: "haider",
+//   haider: `He is a full stack engineer and trainer.`,
+//   isMarried: true,
+// };
+
+// for (let prop in user) {
+//   //   console.log(user.prop);
+//   // console.log(prop);
+//   // console.log(user["userName"]);//haider
+//   // console.log(user.userName);// haider
+//   // console.log(prop["slice(0,1)"]);
+//   user[prop] = prompt(`Enter a value for key ${prop}`);
+
+//   let obj = { [prop]: user[prop] };
+//   console.log(obj);
+// }
+// console.log(user);
+
+// let keyName = prompt("Enter a key Name");
+// let keyValue = prompt("Enter a keyValue");
+
+// let obj = { [keyName]: keyValue };
+// console.log(obj);
+
 
