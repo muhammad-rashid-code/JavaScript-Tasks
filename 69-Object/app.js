@@ -135,15 +135,15 @@
 // car1.calcFuelAvg(20, 200);
 // car2.calcFuelAvg(10, 130);
 
-let armyPerson = {
-  fName: "Muhammad",
-  lName: "Rasshid",
-  //   cnic: 12345 - 4323244 - 2,
-  cinic: 1233432432424,
-  rank: "Captain",
-  department: "IT",
-  domain: "CyberSecurity",
-};
+// let armyPerson = {
+//   fName: "Muhammad",
+//   lName: "Rasshid",
+//   //   cnic: 12345 - 4323244 - 2,
+//   cinic: 1233432432424,
+//   rank: "Captain",
+//   department: "IT",
+//   domain: "CyberSecurity",
+// };
 
 // console.log(armyPerson);
 // let bodyEl = document.querySelectorAll("body")[0];
@@ -158,3 +158,120 @@ let armyPerson = {
 // let allKeys = Object.keys(armyPerson);
 // let allValues = Object.values(armyPerson);
 // console.log(allKeys + " : " + allValues);
+
+//object likhna
+//object pr loop
+//access specific property
+//keys access
+//property access
+// value access
+
+// console.log(student);
+
+// for (let prop in student) {
+//   console.log(student);
+// }
+
+// let allKeys = Object.keys(student);
+// let allValues = Object.values(student);
+
+// console.log(allKeys, allValues);
+// console.log(student.fName);
+// console.log(student["fName"]);
+
+// let student = {
+//   fName: "muhammad",
+//   lName: "rashid",
+//   rollNum: "4325",
+//   subjects: ["html", "css", "JavaScript"],
+//   isHeMarried: false,
+// };
+
+// for (let prop in student) {
+//   // console.log(prop);
+//   // console.log(student[prop]);
+//   console.log(prop, ":", student[prop]);
+// }
+// let user = {
+//   fName: "rashid",
+//   rashid: "he is fullStack developer",
+// };
+
+// console.log(user.fName);
+// let fName = "rashid";
+// console.log(user[fName]);
+
+// let user = {
+//   userName: "haider",
+//   haider: `He is a full stack engineer and trainer.`,
+//   isMarried: true,
+// };
+
+// for (let prop in user) {
+//   user[prop] = prompt(`Enter a new value of  key ${prop}`);
+// }
+
+// let obj = {
+//   [prop]: user[prop],
+// };
+
+// console.log(obj);
+
+// let user = {
+//   userName: "haider",
+//   haider: `He is a full stack engineer and trainer.`,
+//   isMarried: true,
+// };
+
+// for (let prop in user) {
+//   user[prop] = prompt(`Enter a new value for key ${prop}`);
+
+//   let obj = {
+//     [prop]: user[prop],
+//   };
+//   console.log(obj);
+// }
+
+// console.log(user);
+
+// let user = {
+//   userName: "haider",
+//   haider: "He is fullStack Dev",
+//   isMarried: false,
+// };
+// console.log(user);
+// for (let prop in user) {
+//   user[prop] = prompt(`Enter a new value for key ${prop}`);
+//   let obj = {
+//     [prop]: user[prop],
+//   };
+//   console.log(obj);
+// }
+
+// console.log(user);
+
+function Student(fName, lName, rollNum, subjects, isMatriculate) {
+  this.fName = fName;
+  this.lName = lName;
+  this.rollNum = rollNum;
+  this.subjects = subjects;
+  this.isMatriculate = isMatriculate;
+}
+
+let s1 = new Student(
+  "muhammad",
+  "rashid",
+  32311,
+  ["HTML", "CSS", "JS", "fBase"],
+  true
+);
+
+let s2 = new Student(
+  "haider",
+  "ali",
+  9876,
+  ["phy", "chm", "Math", "bio"],
+  false
+);
+
+console.log(s1, s2);
