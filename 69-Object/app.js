@@ -250,28 +250,37 @@
 
 // console.log(user);
 
-function Student(fName, lName, rollNum, subjects, isMatriculate) {
-  this.fName = fName;
-  this.lName = lName;
-  this.rollNum = rollNum;
-  this.subjects = subjects;
-  this.isMatriculate = isMatriculate;
+// function Student(fName, lName, rollNum, subjects, isMatriculate) {
+//   this.fName = fName;
+//   this.lName = lName;
+//   this.rollNum = rollNum;
+//   this.subjects = subjects;
+//   this.isMatriculate = isMatriculate;
+// }
+
+// let s1 = new Student(
+//   "muhammad",
+//   "rashid",
+//   32311,
+//   ["HTML", "CSS", "JS", "fBase"],
+//   true
+// );
+
+// let s2 = new Student(
+//   "haider",
+//   "ali",
+//   9876,
+//   ["phy", "chm", "Math", "bio"],
+//   false
+// );
+
+// console.log(s1, s2);
+
+let nums = [2, 3, 5, 4, 2, 73, 53, 6, 8, 9];
+let largest = nums[0];
+for (let i = 0; i < nums.length; i++) {
+  if (largest < nums[i]) {
+    largest = nums[i];
+  }
 }
-
-let s1 = new Student(
-  "muhammad",
-  "rashid",
-  32311,
-  ["HTML", "CSS", "JS", "fBase"],
-  true
-);
-
-let s2 = new Student(
-  "haider",
-  "ali",
-  9876,
-  ["phy", "chm", "Math", "bio"],
-  false
-);
-
-console.log(s1, s2);
+console.log(largest);
