@@ -152,23 +152,54 @@
 // console.log(calculateHypotenuse(base, perpendicular));
 
 // 10.	Write a function that writes variable length arguments list in your browser.
-function logArguments() {
-  for (var i = 0; i < arguments.length; i++) {
-    console.log(arguments[i]);
+// function logArguments() {
+//   for (var i = 0; i < arguments.length; i++) {
+//     console.log(arguments[i]);
+//   }
+// }//smj ni aaya recheck
+
+// // Example usage:
+// logArguments("Hello", 42, true, [1, 2, 3]);
+
+// function writeToBrowser(...args) {
+//   document.write("<p>Arguments:</p>");
+//   document.write("<ul>");
+//   args.forEach(arg => {
+//       document.write("<li>" + arg + "</li>");
+//   });
+//   document.write("</ul>");
+// }
+
+// // Example usage:
+// writeToBrowser("apple", "banana", "orange");
+
+// 10.	Write a function that writes variable length arguments list in your browser.
+// let big = "";
+// let myArrayNumbers = [1, 2, 3, 2, 1, 44, 5];
+// for (let i = 0; i < myArrayNumbers.length; i++) {
+//   if (myArrayNumbers[0] > myArrayNumbers[i]) {
+//     big += myArrayNumbers[i];
+//   }
+// }
+// console.log(big);
+
+// let nums = [1, 2, 3, 4, 5, 4, 3, 2, 1, 3, 9];
+// let largestNum = "";
+// let largestNumArr = nums[0];
+// for (let i = 0; i < nums.length; i++) {
+//   if (largestNumArr > nums[i]) {
+//     largestNum = nums[i];
+//   }
+// }
+
+// console.log(largestNum);
+
+let nums = [32, 544, 700, 436, 23, 34, 6, 42, 2, 645];
+let numsLargest = nums[0];
+for (let i = 0; i < nums.length; i++) {
+  if (numsLargest > nums[i]) {
+    numsLargest = nums[i];
   }
-}//smj ni aaya recheck
-
-// Example usage:
-logArguments("Hello", 42, true, [1, 2, 3]);
-
-function writeToBrowser(...args) {
-  document.write("<p>Arguments:</p>");
-  document.write("<ul>");
-  args.forEach(arg => {
-      document.write("<li>" + arg + "</li>");
-  });
-  document.write("</ul>");
 }
 
-// Example usage:
-writeToBrowser("apple", "banana", "orange");
+console.log(numsLargest);
