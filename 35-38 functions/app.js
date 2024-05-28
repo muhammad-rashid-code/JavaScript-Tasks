@@ -104,9 +104,71 @@
 // let end = +prompt("Enter End");
 // countingG(start, end);
 
-function countingG(start, end) {
-  for (let i = start; i <= end; i++) {
-    i;
+// function countingG(start, end) {
+//   for (let i = start; i <= end; i++) {
+//     i;
+//   }
+//   return;
+// }
+
+// let numStart = +prompt("Enter a Start Num");
+// let numEnd = +prompt("Enter an end num");
+// for (let i = numStart; i <= numEnd; i++) {
+//   console.log(i);
+// }
+
+// let numStart = +prompt("Enter a Start Num");
+// let numEnd = +prompt("Enter an end num");
+
+// function uesrCouting(numStart, numEnd) {
+//   for (let i = numStart; i <= numEnd; i++) {
+//     console.log(i);
+//   }
+// }
+
+// uesrCouting(numStart, numEnd);
+
+// function sum(a, b) {
+//   console.log(a + b);
+// }
+
+// let result = sum(1, 2);
+// console.log(result);
+
+// 9.	Write a nested function that computes hypotenuse of a right angle triangle.
+// Hypotenuse2 = Base2 + Perpendicular2
+// Take base and perpendicular as inputs.
+// Outer function : calculateHypotenuse()
+// Inner function: calculateSquare()
+// let base = +prompt("Enter a Value For base");
+// let perpendicular = +prompt("Enter a value for perpendicular");
+// function calculateHypotenuse(base, perpendicular) {
+//   function calculateSquare(num) {
+//     return num * num;
+//   }
+//   return Math.sqrt(calculateSquare(base) + calculateSquare(perpendicular));
+// }
+
+// console.log(calculateHypotenuse(base, perpendicular));
+
+// 10.	Write a function that writes variable length arguments list in your browser.
+function logArguments() {
+  for (var i = 0; i < arguments.length; i++) {
+    console.log(arguments[i]);
   }
-  return;
+}//smj ni aaya recheck
+
+// Example usage:
+logArguments("Hello", 42, true, [1, 2, 3]);
+
+function writeToBrowser(...args) {
+  document.write("<p>Arguments:</p>");
+  document.write("<ul>");
+  args.forEach(arg => {
+      document.write("<li>" + arg + "</li>");
+  });
+  document.write("</ul>");
 }
+
+// Example usage:
+writeToBrowser("apple", "banana", "orange");
