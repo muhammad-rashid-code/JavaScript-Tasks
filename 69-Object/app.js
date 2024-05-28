@@ -121,7 +121,6 @@
 
 // console.log(user1, user2);
 
-
 // function Car(name, model, varient) {
 //     this.name = name;
 //     this.model = model;
@@ -136,3 +135,26 @@
 // car1.calcFuelAvg(20, 200);
 // car2.calcFuelAvg(10, 130);
 
+let armyPerson = {
+  fName: "Muhammad",
+  lName: "Rasshid",
+  //   cnic: 12345 - 4323244 - 2,
+  cinic: 1233432432424,
+  rank: "Captain",
+  department: "IT",
+  domain: "CyberSecurity",
+};
+
+// console.log(armyPerson);
+// let bodyEl = document.querySelectorAll("body")[0];
+// bodyEl.innerHTML = "12345-4323244-2";
+
+// console.log(armyPerson["department"]);
+
+// for (let prop in armyPerson) {
+//   console.log(armyPerson["department"]);
+// }
+
+// let allKeys = Object.keys(armyPerson);
+// let allValues = Object.values(armyPerson);
+// console.log(allKeys + " : " + allValues);
