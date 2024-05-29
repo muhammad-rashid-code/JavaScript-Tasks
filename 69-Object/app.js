@@ -135,15 +135,15 @@
 // car1.calcFuelAvg(20, 200);
 // car2.calcFuelAvg(10, 130);
 
-let armyPerson = {
-  fName: "Muhammad",
-  lName: "Rasshid",
-  //   cnic: 12345 - 4323244 - 2,
-  cinic: 1233432432424,
-  rank: "Captain",
-  department: "IT",
-  domain: "CyberSecurity",
-};
+// let armyPerson = {
+//   fName: "Muhammad",
+//   lName: "Rasshid",
+//   //   cnic: 12345 - 4323244 - 2,
+//   cinic: 1233432432424,
+//   rank: "Captain",
+//   department: "IT",
+//   domain: "CyberSecurity",
+// };
 
 // console.log(armyPerson);
 // let bodyEl = document.querySelectorAll("body")[0];
