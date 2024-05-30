@@ -6,7 +6,7 @@
 // );
 
 // 2. Repeat task1 for subtraction, multiplication, division & modulus.
- 
+
 // 3. Do the following using JS Mathematic Expressions
 // a. Declare a variable.
 // b. Show the value of variable in your browser like “Value
@@ -25,4 +25,12 @@
 // k. Show the remainder after dividing the variable’s value
 // by 3.
 // l. Output : “The remainder is : 0”.
+
+// var num1;
+// num1 = 5;
+// num1++;
+// num1 = num1 + 7;
+// num1--;
+// num1 = num1 % 3;
+// console.log(num1);
 
