@@ -337,3 +337,62 @@
 // student1.subjects = ["python"];
 // console.log(student1, student2, student3);
 
+let plan1 = {
+  planName: "fat lose",
+  excercise: "strenth training",
+  fee: 2000,
+  admissionFee: 1000,
+  isAircodition: false,
+  calculateBill: function (noOfMonths) {
+    let totalBill = this.fee * noOfMonths + this.admissionFee;
+    // totalBill = (totalBill / 100) * 80;
+    if (noOfMonths >= 3) {
+      totalBill = (totalBill / 100) * 80;
+    }
+    console.log(totalBill);
+  },
+};
+// // plan1.calculateBill(4);
+// console.log(plan1);
+// console.log(plan1["admissionFee"]);
+
+// let allKeys = Object.keys(plan1);
+// let allValues = Object.values(plan1);
+
+// console.log(allKeys);
+// console.log(allValues);
+
+// for (let prop in plan1) {
+//   console.log(prop, ":", plan1[prop]);
+// }
+
+// let user = {
+//   userName: "haider",
+//   haider: "he is a good teacher",
+// };
+
+// console.log(user);
+// console.log(user["haider"]);
+// let userName = "haider";
+// console.log(user[userName]);
+
+let user = {
+  userName: `haider`,
+  haider: `he is a fullStack dev`,
+  ismarried: true,
+};
+
+// for (let prop in user) {
+//   prop[user] = prompt(`Enter a value for key in ${prop}`);
+// }
+
+// console.log(user);
+
+for (let prop in user) {
+  user[prop] = prompt(`Enter a value for key ${prop}`);
+  let obj = {
+    [prop]: user[prop],
+  };
+  console.log(obj);
+}
+console.log(user);
