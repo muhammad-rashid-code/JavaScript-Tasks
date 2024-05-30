@@ -276,11 +276,64 @@
 
 // console.log(s1, s2);
 
-let nums = [2, 3, 5, 4, 2, 73, 53, 6, 8, 9];
-let largest = nums[0];
-for (let i = 0; i < nums.length; i++) {
-  if (largest < nums[i]) {
-    largest = nums[i];
-  }
-}
-console.log(largest);
+// let nums = [2, 3, 5, 4, 2, 73, 53, 6, 8, 9];
+// let largest = nums[0];
+// for (let i = 0; i < nums.length; i++) {
+//   if (largest < nums[i]) {
+//     largest = nums[i];
+//   }
+// }
+// console.log(largest);
+
+// let plan1 = {
+//   planName: "fatLose",
+//   excercises: "strenth training",
+//   fee: 2000,
+//   admissionFee: 1000,
+//   isAirCond: false,
+//   calculateBill: function (noOfMonths) {
+//     let totalBill = this.fee * noOfMonths + this.admissionFee;
+//     if (noOfMonths >= 3) {
+//       totalBill = (totalBill / 100) * 80;
+//     }
+//     console.log(totalBill);
+//   },
+// };
+// plan1.calculateBill(4);
+
+// console.log(plan1.planName);
+// console.log(plan1["planName"]);
+
+// let allKeys = Object.keys(plan1);
+// let allValues = Object.values(plan1);
+
+// // console.log(allKeys, ":", allValues);
+
+// for (let prop in plan1) {
+//   //   console.log(prop);
+//   console.log(prop, ":", plan1[prop]);
+// }
+// console.log(plan1);
+// let userN = {
+//   userName: "haider",
+//   haider: "softwareEnginner and he is fullStack dev and a good trainer",
+// };
+
+// let userName = "haider";
+// console.log(userN.userName);
+// console.log(userN[userName]);
+
+// function Student(name, rollNum, isFeePaid) {
+//   this.name = name;
+//   this.rollNum = rollNum;
+//   this.isFeePaid = isFeePaid;
+// }
+
+// Student.prototype.subjects = ["HTML", "CSS", "JS"];
+// let student1 = new Student("haider", 32412, true);
+// let student2 = new Student("rashid", 4356, false);
+// let student3 = new Student("absullah", 45243, true);
+
+// student1.subjects = ["python"];
+// console.log(student1, student2, student3);
+
