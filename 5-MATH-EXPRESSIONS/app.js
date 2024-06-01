@@ -34,4 +34,4 @@
 // num1 = num1 % 3;
 // console.log(num1);
 
-alert("AsSalaamOalikum");
+// alert("AsSalaamOalikum");
