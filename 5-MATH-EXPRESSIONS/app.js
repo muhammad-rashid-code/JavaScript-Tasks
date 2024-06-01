@@ -35,3 +35,14 @@
 // console.log(num1);
 
 // alert("AsSalaamOalikum");
+
+// 4. Cost of one movie ticket is 600 PKR. Write a script to
+// store
+// ticket price in a variable & calculate the cost of buying 5
+// tickets
+// to a movie. Example output:
+
+// let cOfTicket = 600;
+
+// alert("The total cost of 5 tickets is " + cOfTicket * 5);
+
