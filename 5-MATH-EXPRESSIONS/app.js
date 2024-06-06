@@ -46,3 +46,45 @@
 
 // alert("The total cost of 5 tickets is " + cOfTicket * 5);
 
+// 5.Write a script to display multiplication table of any
+// number in your browser. E.g
+// let num = 1;
+// document.write("4 " + "X " + num + " " + " =  " + 4 * num++ + " " + "</br>");
+// document.write("4 " + "X " + num + " " + " =  " + 4 * num++ + " " + "</br>");
+// document.write("4 " + "X " + num + " " + " =  " + 4 * num++ + " " + "</br>");
+// document.write("4 " + "X " + num + " " + " =  " + 4 * num++ + " " + "</br>");
+// document.write("4 " + "X " + num + " " + " =  " + 4 * num++ + " " + "</br>");
+// document.write("4 " + "X " + num + " " + " =  " + 4 * num++ + " " + "</br>");
+// document.write("4 " + "X " + num + " " + " =  " + 4 * num++ + " " + "</br>");
+// document.write("4 " + "X " + num + " " + " =  " + 4 * num++ + " " + "</br>");
+// document.write("4 " + "X " + num + " " + " =  " + 4 * num++ + " " + "</br>");
+// document.write("4 " + "X " + num + " " + " =  " + 4 * num++ + " " + "</br>");
+// document.write("4 " + "X " + num + " " + " =  " + 4 * num++ + " " + "</br>");
+// document.write("4 " + "X " + num + " " + " =  " + 4 * num++ + " " + "</br>");
+// document.write("4 " + "X " + num + " " + " =  " + 4 * num++ + " " + "</br>");
+// document.write("4 " + "X " + num + " " + " =  " + 4 * num++ + " " + "</br>");
+// document.write("4 " + "X " + num + " " + " =  " + 4 * num++ + " " + "</br>");
+
+// 6. The Temperature Converter: It’s hot out! Let’s make a
+// converter based on the steps here.
+// a. Store a Celsius temperature into a variable.
+// b. Convert it to Fahrenheit & output “NNoC is NNoF”.
+// c. Now store a Fahrenheit temperature into a variable.
+// d. Convert it to Celsius & output “NNoF is NNoC”.
+// let far = 20;
+// let celTemp = ((far - 32) * 5) / 9;
+// console.log(celTemp);
+
+// let c = 30;
+// let farnHTemp = (c * 9) / 5 + 32;
+// console.log(farnHTemp);
+
+// 7. Write a program to implement checkout process of a
+// shopping cart system for an e-commerce website. Store
+// the following in variables
+// a. Price of item 1
+// b. Price of item 2
+// c. Ordered quantity of item 1
+// d. Ordered Quantity of item 2
+// e. Shipping charges
+// Compute the total cost & show the receipt in your browser.
