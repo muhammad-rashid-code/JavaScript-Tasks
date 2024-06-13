@@ -251,7 +251,7 @@
 
 // console.log(sum(2, 2));
 
-3; //
+//3; //
 
 // const square = (num) => {
 //   return num * num;
@@ -259,4 +259,90 @@
 
 // console.log(square(4));
 
+// let students = [
+//   "haider",
+//   "abdullah",
+//   "aslam",
+//   "akram",
+//   "sameed",
+//   "anas",
+//   "ahmed",
+//   "shoaib",
+//   "akram",
+//   "hassan",
+//   "rashid",
+//   "umair",
+// ];
 
+// let feesClear = [
+//   "haider",
+//   "abdullah",
+//   "aslam",
+//   "anas",
+//   "ahmed",
+//   "shoaib",
+//   "umair",
+// ];
+
+// let examClear = [
+//   "abdullah",
+//   "aslam",
+//   "akram",
+//   "ahmed",
+//   "shoaib",
+//   "akram",
+//   "hassan",
+//   "rashid",
+// ];
+
+// let eligible = students.filter(
+//   (student) => feesClear.includes(student) && examClear.includes(student)
+// );
+
+// console.log(eligible);
+
+// let species = [
+//   "owias",
+//   "ahmed",
+//   "haider",
+//   "sameed",
+//   "Abdul Sammad",
+//   "Abdul haseeb",
+//   "abdul hannan",
+//   "ahsan",
+//   "fahad",
+//   "rehan shamsi",
+//   "moin",
+//   "asif",
+//   "faheem",
+//   "sikander",
+// ];
+
+// let feesClear = [
+//   "Abdul Sammad",
+//   "Abdul haseeb",
+//   "abdul hannan",
+//   "haider",
+//   "sikander",
+// ];
+// let examClear = [
+//   "sikander",
+//   "faheem",
+//   "sameed",
+//   "owias",
+//   "Abdul Sammad",
+//   "Abdul haseeb",
+// ];
+
+// let eligible = species.filter(
+//   (specie) => feesClear.includes(specie) && examClear.includes(specie)
+// );
+
+// console.log(eligible);
+
+// let allNum = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+// let evenNum = allNum.filter((num) => num % 2 === 0);
+// console.log(evenNum);
+
+let fNames =[]
